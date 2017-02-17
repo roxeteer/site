@@ -53,6 +53,9 @@ a.yellowLink {
   .awsLogo {
     margin-left: 15px;
     max-width: 110px;
+    svg {
+      width: 100%;
+    }
   }
 }
 

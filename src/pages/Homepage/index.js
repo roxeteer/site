@@ -10,6 +10,7 @@ import terminalCommands from './terminalCommands'
 import styles from './Homepage.css'
 import playSvg from '../../assets/icons/play.svg'
 import docsSvg from '../../assets/icons/book2.svg'
+import awsSvg from '../../assets/images/aws_logo.svg'
 
 export default class Homepage extends Component {
   static propTypes = {
@@ -72,7 +73,7 @@ export default class Homepage extends Component {
               </div>
               <div className={styles.poweredBy}>
                 <span>Powered by AWS Lambda</span>
-                <img className={styles.awsLogo} src={'https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/images/aws_logo.png'} alt='aws Lambda' />
+                <Svg svg={awsSvg} className={styles.awsLogo} />
               </div>
             </div>
 
